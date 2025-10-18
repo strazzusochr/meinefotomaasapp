@@ -102,7 +102,7 @@
 # Testing Data - Main Agent and testing sub agent both should log testing data below this section
 #====================================================================================================
 
-user_problem_statement: "Test the IronReign bodybuilding app backend API endpoints"
+user_problem_statement: "Comprehensive A-Z Frontend UI Testing for IronReign Bodybuilding App - Complete User Flow Testing"
 
 backend:
   - task: "User Management API"
