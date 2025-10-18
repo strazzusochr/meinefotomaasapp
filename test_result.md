@@ -208,7 +208,18 @@ metadata:
   run_ui: false
 
 test_plan:
-  current_focus: []
+  current_focus:
+    - "Welcome Screen & Onboarding Flow"
+    - "Profile Setup 2-Step Wizard"
+    - "Dashboard Screen Complete"
+    - "Exercise Library & Detail Views"
+    - "Workout Tracking Complete Flow"
+    - "Nutrition Calculator & Plan Display"
+    - "Progress Tracking with Photos"
+    - "AI Training Plan Generator"
+    - "Tab Navigation & Cross-Screen Navigation"
+    - "Dark Theme & Responsive Design"
+    - "Error Handling & Loading States"
   stuck_tasks: []
   test_all: true
   test_priority: "high_first"
