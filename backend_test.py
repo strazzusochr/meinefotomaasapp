@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-IronReign Backend API Test Suite
-Tests all backend endpoints for the bodybuilding app
+UMFASSENDE IronReign Backend API Test Suite - A bis Z
+Comprehensive testing for all backend endpoints with real-world scenarios
 """
 
 import requests
@@ -10,6 +10,8 @@ import uuid
 from datetime import datetime
 import base64
 import os
+import time
+from typing import Dict, List, Any
 
 # Get backend URL from environment
 BACKEND_URL = "https://gymwarrior.preview.emergentagent.com/api"
