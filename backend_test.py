@@ -16,13 +16,16 @@ from typing import Dict, List, Any
 # Get backend URL from environment
 BACKEND_URL = "https://gymwarrior.preview.emergentagent.com/api"
 
-class IronReignAPITester:
+class IronReignComprehensiveTester:
     def __init__(self):
         self.base_url = BACKEND_URL
-        self.test_user_id = None
-        self.test_exercise_id = None
-        self.test_workout_id = None
+        self.headers = {"Content-Type": "application/json"}
         self.test_results = []
+        self.created_users = []
+        self.created_exercises = []
+        self.created_workouts = []
+        self.created_progress = []
+        self.created_plans = []
         
     def log_test(self, test_name, success, details="", response_data=None):
         """Log test results"""
