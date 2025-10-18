@@ -1224,7 +1224,7 @@ class IronReignComprehensiveTester:
             self.log_test("Test Execution", False, f"Critical error: {str(e)}")
         
         # Print summary
-        self.print_test_summary()
+        return self.print_test_summary()
     
     def print_test_summary(self):
         """Print comprehensive test summary"""
