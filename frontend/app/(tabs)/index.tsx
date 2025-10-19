@@ -162,6 +162,16 @@ export default function DashboardScreen() {
           label="Log Progress"
           onPress={() => router.push('/(tabs)/progress')}
         />
+        <QuickAction
+          icon="history"
+          label="Workout History"
+          onPress={() => router.push('/workout-history')}
+        />
+        <QuickAction
+          icon="calculator"
+          label="1RM Calculator"
+          onPress={() => router.push('/one-rm-calculator')}
+        />
       </View>
 
       {/* Motivational Quote */}
